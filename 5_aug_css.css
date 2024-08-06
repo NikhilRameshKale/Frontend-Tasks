@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class{
+height: 500px;
+width: 500px;
+background-color: rgba(73, 236, 182, 0.801);
+
+display: flex;/*row*/
+justify-content: space-between;/*daba cha aat space*/
+/*justify-content: space-around; daba cha bahir around space*/
+align-content: center;
+flex-wrap: nowrap;/* default property*/
+flex-wrap: wrap;
+gap: 5px ;
+justify-content: center;
+}
+.box{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(126, 28, 218);
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#b3{
+    background-color: cyan;
+    order: 1;
+}
+#b4{
+    background-color: darkmagenta;
+    order: -1;
+}
+#b2{
+    background-color: hotpink;
+    align-self: flex-start;
+}
