@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: aquamarine;
+    height: 80vh;
+    width: 80vw;
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px ;
+    grid-template-columns: 1fr 2fr 3fr;
+}
+.box{
+    background-color:crimson;
+    border: 1px solid black;
+   
+
+}
