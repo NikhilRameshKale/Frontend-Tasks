@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 80vh;
+    width: 90vw;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(230, 23, 230);
+}
+.cover{
+    height: 100%;
+    width: 100%;
+    background-color: #00000050;
+}
+.cover:hover{
+    transform: perspective(200px) rotate3d(1,1,1,20deg);
+    transform-origin: left top;
+    transition:transform;
+    transition-duration: 1s;
+}
